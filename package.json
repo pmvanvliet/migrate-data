@@ -1,0 +1,19 @@
+{
+  "name": "migration2mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "migrate-data.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start": "start migrate-data.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "2.6.0",
+    "chai": "4.1.2",
+    "mocha": "5.1.1",
+    "mongodb": "3.0.7"
+  }
+}
